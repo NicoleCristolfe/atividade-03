@@ -1,0 +1,25 @@
+.recomendacao-container {
+
+     display: flex;
+     text-align: center;
+     justify-content: center;
+     display: grid;
+     padding: 0%;
+     grid-gap: 15px;
+     padding: 1em;
+     grid-auto-flow: column;
+     list-style-type: none;
+     width: fit-content;
+}
+
+.botaoRecomendar {
+     background-color: rgb(92, 108, 255);
+     width: 100px;
+     padding: 12px;
+     margin: 15px;
+}
+
+img {
+     height: 300px;
+     object-fit: cover;
+}
