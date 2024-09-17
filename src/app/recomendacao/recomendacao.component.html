@@ -4,11 +4,11 @@
 <br>
 
 <ul class="recomendacao-container">
-    @for (item of listaDeRecomendados; track item) {
+    @for (filme of listaDeRecomendados; track filme) {
     <li>
-        <img [src]="caminho[catalogo.indexOf(item)]">
+        <img [src]="filme.image">
         <br>
-        {{item}}
+        {{filme.name}}
     </li>
     } @empty {
     <li> Não há filmes recomendados </li>
